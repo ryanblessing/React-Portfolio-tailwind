@@ -2,9 +2,9 @@
 import React from "react";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import About from "./components/Pages/About";
-import Contact from "./components/Pages/Contact";
-import Projects from "./components/Pages/Projects";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 //landing page
 export default function App() {
