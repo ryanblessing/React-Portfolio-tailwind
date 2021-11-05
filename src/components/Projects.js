@@ -6,20 +6,20 @@ import React from "react";
 export default function Projects() {
      const projects = [
         {
-          title: "React Reserve",
-          subtitle: "MERN Stack",
+          title: "Run Buddy",
+          subtitle: "Html, Css",
           description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-          image: "./project-1.gif",
-          link: "https://reactbootcamp.com",
+            "Run buddy is a application that puts you in touch with a fitness trainer, to help you achieve your fitness goals.",
+          image: require('../assets/run-buddy.jpg').default,
+          link: "https://ryanblessing-35e74d648e.drafts.github.io/Run-Buddy/",
         },
         {
-          title: "React Tracks",
-          subtitle: "React and Python",
+          title: "Easy-Link",
+          subtitle: "HTML, CSS, JavaScript, API's",
           description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-          image: "./project-2.gif",
-          link: "",
+            "Easy Link was a group project I was apart of, thats purpose was to connect people to other like-minded people. Helping them find new spots for food, drinks and entertainment. This is just the baseline of the App, and Future development is key for this to become a successful social networking system!",
+          image: require('../assets/easyLink.png').default,
+          link: "https://ryanblessing.github.io/Group-project-1/",
         },
         {
           title: "DevChat",

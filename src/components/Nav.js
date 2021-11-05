@@ -13,7 +13,8 @@ export default function Nav() {
             Ryan Blessing
           </a>
         </div>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	
+        flex flex-wrap items-center text-base justify-center">
           <a href="#Projects" className="mr-5 text-white hover:text-red-500">
             Projects
           </a>
@@ -27,7 +28,8 @@ export default function Nav() {
         </nav>
         <a
           href="Contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-white mt-4 md:mt-0">
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none
+           hover:bg-gray-700 rounded text-white mt-4 md:mt-0">
           Hire Me
           <HiArrowRight className="w-4 h-4 ml-1" />
         </a>
